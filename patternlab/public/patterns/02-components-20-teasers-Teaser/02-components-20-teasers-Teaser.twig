@@ -1,0 +1,21 @@
+&lt;article class=&quot;Teaser {{ class }}&quot;&gt;
+	&lt;a href=&quot;&quot;&gt;
+		&lt;div class=&quot;Teaser__grid&quot;&gt;
+			&lt;div class=&quot;Teaser__text&quot;&gt;
+				&lt;div class=&quot;Teaser__label&quot;&gt;{{ post.tag }}&lt;/div&gt;
+				&lt;h3 class=&quot;Teaser__title&quot;&gt;{{ post.title }}&lt;/h3&gt;
+				&lt;div class=&quot;Teaser__excerpt&quot;&gt;
+					&lt;p&gt;{{ post.excerpt }}&lt;/p&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;Teaser__link&quot;&gt;
+					&lt;span&gt;Read More&lt;/span&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;Teaser__image&quot;&gt;
+				{% if post.img %}
+					&lt;img src=&quot;{{ post.img.img300xAuto.src }}&quot; alt=&quot;&quot; /&gt;
+				{% endif %}
+			&lt;/div&gt;&lt;!-- /.Teaser__image --&gt;
+		&lt;/div&gt;
+	&lt;/a&gt;
+&lt;/article&gt;

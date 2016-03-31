@@ -1,0 +1,26 @@
+{% extends &quot;main.twig&quot; %}
+
+{% block main %}
+
+    {% embed &quot;misc-Frame&quot; %}
+        {% block frame_content %}
+
+            &lt;div&gt;&lt;strong&gt;Region: &quot;Main&quot;&lt;/strong&gt;&lt;/div&gt;
+            &lt;div&gt;- Lorem Ipsum Component 1&lt;/div&gt;
+            &lt;div&gt;- Lorem Ipsum Component 2&lt;/div&gt;
+
+        {% endblock %}
+    {% endembed %}
+
+    {% embed &quot;misc-Frame&quot;  with { frameclass : &quot;Frame--dark&quot; } %}
+        {% block frame_content %}
+
+            &lt;div&gt;&lt;strong&gt;Region: &quot;Secondary&quot;&lt;/strong&gt;&lt;/div&gt;
+            &lt;div&gt;- Lorem Ipsum Component 3&lt;/div&gt;
+
+        {% endblock %}
+    {% endembed %}
+
+
+
+{% endblock %}

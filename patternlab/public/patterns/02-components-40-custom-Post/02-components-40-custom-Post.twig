@@ -1,0 +1,19 @@
+&lt;article class=&quot;Post {{ class }}&quot; &gt;
+    
+    &lt;header class=&quot;Post__header&quot;&gt;
+        &lt;h2 class=&quot;Post__title&quot;&gt;{{ post.title }}&lt;/h2&gt;
+    &lt;/header&gt;&lt;!-- /.Post__header --&gt;
+
+
+    &lt;div class=&quot;Post__content&quot;&gt;
+
+        &lt;div class=&quot;Post__body&quot;&gt;
+            {% block post_body %}
+                {% include &quot;misc-wysiwyg&quot; %}
+            {% endblock %}
+        &lt;/div&gt;&lt;!-- /.Post__body --&gt;
+
+    &lt;/div&gt;&lt;!-- /.Post__content --&gt;
+
+&lt;/article&gt;&lt;!-- /.Post --&gt;
+

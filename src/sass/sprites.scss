@@ -1,0 +1,21 @@
+.svg-check {
+	width: 16px;
+	height: 12px;
+	background-position: 0 0;
+}
+
+.svg-circle {
+	width: 10px;
+	height: 10px;
+	background-position: -25px 0;
+}
+
+.svg-check, .svg-circle {
+	background-size: 40px 20px;
+	background-repeat: no-repeat;
+	background-image: url("../../build/sprite.png");
+}
+
+.svg .svg-check, .svg .svg-circle {
+	background-image: url("../../build/sprite.svg");
+}

@@ -1,0 +1,14 @@
+&lt;section class=&quot;TeaserList {{ class }}&quot;&gt;
+    &lt;header class=&quot;TeaserList__header&quot;&gt;
+        &lt;h2 class=&quot;TeaserList__title&quot;&gt;{{ post.title }}&lt;/h2&gt;
+    &lt;/header&gt;
+    &lt;div class=&quot;TeaserList__content&quot;&gt;
+        {% block teaser %}
+            &lt;ul&gt;
+                {% for post in post.teasers|slice(0, 3) %}
+                    &lt;li&gt;{% include &quot;components-Teaser&quot; %}&lt;/li&gt;
+                {% endfor %} 
+            &lt;/ul&gt;
+        {% endblock %}
+    &lt;/div&gt;
+&lt;/section&gt;
