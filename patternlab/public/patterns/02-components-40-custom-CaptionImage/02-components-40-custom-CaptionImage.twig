@@ -1,0 +1,10 @@
+&lt;figure class=&quot;CaptionImage {{ captionclass }}&quot;&gt;
+    {% if post.img %}
+        &lt;img src=&quot;{{ post.img.img300xAuto.src }}&quot; alt=&quot;&quot; /&gt;
+    {% elseif post.iframe %}
+        {{ post.iframe|raw }}
+    {% endif %}
+    &lt;figcaption class=&quot;CaptionImage__caption&quot;&gt;
+        &lt;p&gt;{{ post.caption }}&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;

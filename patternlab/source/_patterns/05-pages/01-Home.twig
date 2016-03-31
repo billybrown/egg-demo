@@ -1,0 +1,23 @@
+{% extends "main.twig" %}
+
+{% block main %}
+
+    {% embed "misc-Frame" %}
+        {% block frame_content %}
+
+            {% include "components-HomeHero" with { post : eggHero } %}
+
+        {% endblock %}
+    {% endembed %}
+
+    {% embed "misc-Frame"  with { frameclass : "Frame--dark" } %}
+        {% block frame_content %}
+
+            {% include "components-TeaserList"  with { post : eggTeasers } %}
+
+        {% endblock %}
+    {% endembed %}
+
+
+
+{% endblock %}

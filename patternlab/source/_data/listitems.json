@@ -1,0 +1,26 @@
+{
+    "post" : {     
+        "teasers": [
+            {
+                "tag" : "Lorem Ipsum",
+                "title" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                "excerpt" : "Rem alias fuga cumque libero nihil corporis, ratione voluptas ea, ipsa ipsum atque est omnis molestias iure cupiditate reprehenderit blanditiis minima, consequatur."
+            },
+            {
+                "tag" : "Consectetur",
+                "title" : "Ratione voluptas ea, ipsa ipsum atque est",
+                "excerpt" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus aut esse distinctio vitae, labore, accusantium officiis, nam harum velit voluptates ullam, consequuntur quidem sapiente ipsa aperiam maiores eum temporibus pariatur.",
+                "img" : {
+                    "img300xAuto" : {
+                        "src" : "http://dummyimage.com/300x200/000/fff.png"
+                    }
+                }
+            },
+            {
+                "tag" : "Ipsa Ipsum Atque",
+                "title" : "Consectetur adipisicing elit",
+                "excerpt" : "Ratione voluptas ea, ipsa ipsum atque est omnis molestias iure cupiditate reprehenderit blanditiis minima, consequatur."
+            }
+        ]
+    }
+}

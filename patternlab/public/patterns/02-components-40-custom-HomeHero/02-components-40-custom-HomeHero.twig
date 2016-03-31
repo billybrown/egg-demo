@@ -1,0 +1,25 @@
+&lt;article class=&quot;HomeHero&quot;&gt;
+            
+    &lt;div class=&quot;HomeHero__grid&quot;&gt;
+        &lt;div class=&quot;HomeHero__logo&quot;&gt;
+            &lt;a href=&quot;/&quot;&gt;
+                {{ post.logo|raw }}
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;HomeHero__textGroup&quot;&gt;
+                &lt;blockquote class=&quot;HomeHero__quote&quot;&gt;
+                    {{ post.quote|raw }}
+                    &lt;footer&gt;{{ post.attribution }}&lt;/footer&gt;
+                &lt;/blockquote&gt;
+
+            &lt;div class=&quot;HomeHero__body&quot;&gt;
+                {{ post.rawtext|raw }}
+            &lt;/div&gt;
+
+            &lt;div class=&quot;HomeHero__link&quot;&gt;
+                &lt;a href=&quot;{{ post.url }}&quot;&gt;{{ post.link }}&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;&lt;!--/.HomeHero__text--&gt;
+    &lt;/div&gt;&lt;!--.HomeHero__grid--&gt;  
+
+&lt;/article&gt;
