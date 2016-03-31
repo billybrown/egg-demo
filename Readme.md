@@ -1,8 +1,8 @@
 # Welcome to Egg
 
-Egg is a responsive none theme for Egg demo. A demo of egg
+This is a demo of egg
 
-@author: Bill Brown and friends at Echo & Co., http://echo.co
+@author: Me, Bill Brown
 
 It uses a few core tools:
 
